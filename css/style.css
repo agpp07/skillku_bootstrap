@@ -24,13 +24,14 @@ nav ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 450px;
+    margin-bottom: 0;
+    width: 600px;
 }
 
 nav a{
     text-decoration: none;
     color: blue;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -64,6 +65,7 @@ header{
 .text-banner h1{
     font-size: 50px;
     color: blue;
+    font-weight: 800;
 }
 
 .text-banner p{
@@ -100,13 +102,13 @@ header{
 }
 
 .tentang-kami img {
-    height: 500px;
+    height: 600px;
     width: auto;
 }
 
 .tentang-kami article{
     padding-left: 50px;
-    width: 25%;
+    width: 30%;
 }
 
 .tentang-kami h1{
@@ -126,10 +128,134 @@ header{
     color: blue;
 }
 
+/* visi misi */
+.visi-misi{
+    background: url('/image/bg-visi.webp');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    color: white;
+}
+
+.visi-misi img{
+width: 400px;
+}
+
+.visi-misi .icon{
+    height: 50px;
+    width: 50px;
+}
+
+.visi-misi ul{
+    list-style-image: url('/icons/arrow-right-icon.png');
+}
+
+.visi-misi li{
+    letter-spacing: .5px;
+    font-size: 22px;
+    padding: 10px 8px;
+    font-weight: 600;
+}
+
+/* nilai */
+.nilai{
+    height: 100vh;
+    background: url('/image/BG.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nilai span{
+    color: #ffaa00;
+}
+
+.nilai h1{
+    color: blue;
+}
+
+.nilai p{
+    font-weight: 500;
+    color: rgb(144, 134, 134);
+}
+
+.heading-nilai{
+    font-weight: 500;
+    color: red;
+}
+
+.heading-nilai{
+
+}
+
+.nilai .card{
+    color: white;
+    width: 250px;
+    height: 320px;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.nilai .card:hover{
+    transform: scale(1.2);
+    background-color: white;
+    color: bule;
+}
+
+.nilai .card:hover .running{
+    content: url('/icons/running-blue.svg');
+}
+
+.nilai .card:hover .hands{
+    content: url('/icons/hands-blue.svg');
+}
+
+.nilai .card:hover .circle{
+    content: url('/icons/circle-blue.svg');
+}
+
+.contact{
+    padding: 50px 0px;
+    background: url('/image/bg-call.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
 /* Footer */
 footer{
-    border-top: 1px solid #f5f5f5;
-    padding: 15px 0px;
+    color: rebeccapurple;
+}
+
+footer hr{
+    width: 35px;
+    border: 3px solid #b17805;
+    opacity: 1;
+}
+
+footer .copyright{
+    width: 100%;
+    border-top: 1px solid #ddd;
     display: flex;
     justify-content: center;
+    padding: 15px 0px;
 }
+
+.copyright p{
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menu-footer a{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: 18px;
+}
+
+.menu-footer li{
+    padding-bottom: 10px;
+}
+
